@@ -19,6 +19,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }} # 一个默认的变量，用来实现往 Release 中添加文件
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
-          goversion: 1.21 # 可以指定编译使用的 Golang 版本
+          goversion: 1.20.11 # 可以指定编译使用的 Golang 版本
           binary_name: gurl
           project_path: ./gurl
